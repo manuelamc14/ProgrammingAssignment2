@@ -1,7 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+### The first function, makeVector creates a special "vector", which is really a list containing a function to
 
-## Write a short comment describing this function
+#set the value of the matrix
+#get the value of the matrix
+#set the value of the inverse of the matrix
+#get the value of the inverse of the matrix
 
 makeCacheMatrix <- function(x = matrix()) {
   inv<- NULL
@@ -18,7 +20,8 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 
-## Write a short comment describing this function
+## This function computes the inverse of the special "matrix"
+## returned by makeCacheMatrix above.
 
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
